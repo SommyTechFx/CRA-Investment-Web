@@ -1,0 +1,26 @@
+.footer {
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.1rem solid #797979;
+}
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 2rem;
+}
+/*......................... media quer...........*/
+
+@media (max-width: 600px) {
+  .footer {
+    display: block;
+    text-align: center;
+  }
+  .footer ul li {
+    margin: 1rem;
+  }
+  .footer ul {
+    margin-top: 1rem;
+  }
+}

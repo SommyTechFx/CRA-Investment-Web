@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import About from "./Components/About/About";
+import Campus from "./Components/Campus/Campus";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+import Hero from "./Components/Hero/Hero";
+import Navbar from "./Components/Navbar/Navbar";
+import Programs from "./Components/Programs/Programs";
+import Test from "./Components/Testimonials/Test";
+import Title from "./Components/Title/Title";
+import Videoplayer from "./Components/VideoPlayer/Videoplayer";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
+  const [playState, setPlayState] = useState(false);
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div>
+      <Navbar />
+      <Hero />
+      <div className="container">
+        <Title subTitle="OUR Stocks" title="What We Offer" />
+        <Programs />
+        <About setPlayState={setPlayState} />
+        <Title subTitle="STock Gallery" title="Stock Types" />
+        <Campus />
+        <Title subTitle="TESTIMONIALS" title="What Student Says" />
+        <Test />
+        <Title subTitle="Contact Us" title="Get in Touch" />
+        <Contact />
+        <Footer />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      <Videoplayer playState={playState} setPlayState={setPlayState} />
+    </div>
+  );
+};
 
-export default App
+export default App;
