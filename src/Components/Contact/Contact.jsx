@@ -64,7 +64,7 @@ function Contact() {
         <ul>
           <li>
             <img src={mail_icon} alt="" />
-            Contact@GreatStack.dev
+            crainvestmentltd@gmail.com
           </li>
           <li>
             <img src={phone_icon} alt="" />
@@ -72,7 +72,7 @@ function Contact() {
           </li>
           <li>
             <img src={location_icon} alt="" />
-            77 Massachusetts Ave, Cambridge MA 02139, United States
+            ogbete main market, holy ghost, Enugu
           </li>
         </ul>
       </div>

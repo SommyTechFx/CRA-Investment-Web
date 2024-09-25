@@ -13,7 +13,7 @@
 
 .hero-text {
   text-align: center;
-  max-width: 90rem;
+  max-width: 100rem;
 }
 .hero-text h1 {
   font-size: 5rem;
@@ -22,7 +22,7 @@
 .hero-text p {
   max-width: 50rem;
   margin: 10px auto 20px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.4;
 }
 
@@ -39,7 +39,7 @@
     margin: auto;
   }
   .hero-text p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin: 1.5rem auto 3rem;
   }
 }

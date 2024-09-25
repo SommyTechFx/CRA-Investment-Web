@@ -37,17 +37,17 @@ function Test() {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>William Jackson 1</h3>
-                  <span>Edusity, USA</span>
+                  <h3>Agbo Ann</h3>
+                  <span>Nsukka, Enugu</span>
                 </div>
               </div>
 
               <div>
                 <p>
-                  Choosing to pursue my degree at Edusity was one of the best
-                  decisions I&apos;ve ever made. The supportive community,
-                  state-of-the-art facilities, and commitment to academic
-                  excellence have truly exceeded my expectations.
+                  CRA Investment Ltd. consistently delivers top-quality
+                  stockfish that has transformed my business. Their attention to
+                  detail and customer service is second to none. Highly
+                  recommended!
                 </p>
               </div>
             </div>
@@ -57,17 +57,16 @@ function Test() {
               <div className="user-info">
                 <img src={user_2} alt="" />
                 <div>
-                  <h3>William Jackson 2</h3>
-                  <span>Edusity, USA</span>
+                  <h3>Chioma N.</h3>
+                  <span>Edo Market, Abuja</span>
                 </div>
               </div>
 
               <div>
                 <p>
-                  Choosing to pursue my degree at Edusity was one of the best
-                  decisions I&apos;ve ever made. The supportive community,
-                  state-of-the-art facilities, and commitment to academic
-                  excellence have truly exceeded my expectations.
+                  The best stockfish supplier in the market! The quality is
+                  unbeatable, and their timely delivery makes working with them
+                  a breeze.
                 </p>
               </div>
             </div>
@@ -77,17 +76,16 @@ function Test() {
               <div className="user-info">
                 <img src={user_3} alt="" />
                 <div>
-                  <h3>William Jackson 3</h3>
-                  <span>Edusity, USA</span>
+                  <h3>Funmi I</h3>
+                  <span>Wholesaler, Port Harcourt</span>
                 </div>
               </div>
 
               <div>
                 <p>
-                  Choosing to pursue my degree at Edusity was one of the best
-                  decisions I&apos;ve ever made. The supportive community,
-                  state-of-the-art facilities, and commitment to academic
-                  excellence have truly exceeded my expectations.
+                  Great service and competitive pricing! CRA Investment Ltd.
+                  always delivers on time and exceeds our expectations with the
+                  quality of their stockfish.
                 </p>
               </div>
             </div>
@@ -97,17 +95,16 @@ function Test() {
               <div className="user-info">
                 <img src={user_4} alt="" />
                 <div>
-                  <h3>William Jackson 4</h3>
-                  <span>Edusity, USA</span>
+                  <h3>Olumide K</h3>
+                  <span>Business Owner, Kano</span>
                 </div>
               </div>
 
               <div>
                 <p>
-                  Choosing to pursue my degree at Edusity was one of the best
-                  decisions I&apos;ve ever made. The supportive community,
-                  state-of-the-art facilities, and commitment to academic
-                  excellence have truly exceeded my expectations.
+                  Their stockfish is consistently of premium quality. We&#39;ve
+                  been importing through them for years and have always had
+                  excellent experiences
                 </p>
               </div>
             </div>

@@ -25,7 +25,7 @@ function Navbar() {
         </li>
         <li>
           <Link to="program" smooth={true} offset={-260} duration={500}>
-            Stocks
+            What we offer
           </Link>
         </li>
 
@@ -36,7 +36,7 @@ function Navbar() {
         </li>
         <li>
           <Link to="campus" smooth={true} offset={-260} duration={500}>
-            Location
+            Stock gallery
           </Link>
         </li>
 

@@ -39,11 +39,21 @@ html {
   align-items: center;
   justify-content: center;
 }
-
+.btn:hover {
+  background: #212ea0;
+  color: white;
+}
 .btn .arrow {
   width: 20px;
   margin-left: 10px;
   color: rgba(8, 0, 58, 0.7);
+}
+.btn .arrow:hover {
+  color: white;
+}
+.btn .dark-btn:hover {
+  background-color: white;
+  color: #212ea0;
 }
 .btn.dark-btn {
   background: #212ea0;
