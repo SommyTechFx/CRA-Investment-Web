@@ -59,7 +59,7 @@ function Contact() {
           Feel free to reach out through the contact form or find our contact
           information below. Your feedback, questions, and suggestions are
           important to us as we strive to provide exceptional service to our
-          university community.
+          Website.
         </p>
         <ul>
           <li>
